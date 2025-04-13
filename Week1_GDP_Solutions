@@ -1,0 +1,102 @@
+/*
+
+
+1.  Ask for the name and age of a user --- print to console
+
+---------------------------------
+
+2.  Ask the user for a temperature in Celcius -- convert to Fh -- print to the console
+	b.  Km - Miles -- print to the console
+	c.  Pounds - Kgs -- print to the console
+	d.  Dollar ammount - convert to Euros -- print to the console
+
+----------------------------------
+
+3. Create a vector of 4 float numbers
+	a. Computer the average of the 4 numbers and print it.  
+	----  How do you compute an average (std::acc***)
+	--- std::  you can use to do this......... youll need an #include <>
+
+-----------------------------------
+
+4.  Ask the user to input 5 integers and store them in a vector  ( Do this one after week 2 !! ) 
+ 	a. Print the sum of all the integers   (std::acc***)
+	b . Largest and Smallest number in the vector (*std::...)
+	c. Ask the user for a number -  search it to see if its in the vector  (std::) 
+*/
+
+//#include <iostream>
+//#include <string>
+
+//int main() 
+//{
+//	
+//	std::string Input;
+//	std::cout << "Please input your Full Name." << std::endl;
+//	std::cin >> Input;
+//	std::cout << "Full Name is : " << Input << std::endl;
+//
+//	std::cin.ignore(); 
+//
+//	std::cout << "Please enter your age: "<< std::endl;
+//	std::getline(std::cin, Input);
+//	std::cout << "Thank you, your age is: " << Input << std::endl;
+//
+//	return 0;
+//}
+
+//#include <iostream>
+//
+//int main()
+//{
+//	double celsius, fahrenheit, km, miles, pounds, kilograms, dollars, euros;
+//	std::cout << "Enter temperature in Celsius: ";
+//	std::cin >> celsius;
+//	fahrenheit = (celsius * 9.0 / 5.0) + 32.0;
+//	std::cout << celsius << " Celsius is " << fahrenheit << " Fahrenheit." << std::endl;
+//	std::cout << "Enter distance in kilometers: ";
+//	std::cin >> km;
+//	miles = km * 0.621371;
+//	std::cout << km << " kilometers is " << miles << " miles." << std::endl;
+//	std::cout << "Enter weight in pounds: ";
+//	std::cin >> pounds;
+//	kilograms = pounds * 0.453592;
+//	std::cout << pounds << " pounds is " << kilograms << " kilograms." << std::endl;
+//	std::cout << "Enter amount in dollars: ";
+//	std::cin >> dollars;
+//	euros = dollars * 0.85; // Assuming 1 dollar = 0.85 euros
+//	std::cout << dollars << " dollars is " << euros << " euros." << std::endl;
+//
+//	return 0;
+//}
+
+//#include <vector>
+//#include <numeric>
+//#include <iostream>
+//#include <string>
+//
+//int main()
+//{
+//	std::vector<float> numbers;
+//	// Ask the user for 4 float numbers
+//	std::cout << "Please enter 4 float numbers:" << std::endl;
+//	for (int i = 0; i < 4; ++i)
+//	{
+//		float number;
+//		std::cin >> number;
+//		numbers.push_back(number);
+//	}
+//	numbers.push_back(1.0f);
+//	numbers.push_back(2.0f);
+//	numbers.push_back(3.0f);
+//	numbers.push_back(4.0f);
+//	float sum = 0.0f;
+//	for (float number : numbers)
+//	{
+//		sum += number;
+//	}
+//	float average = sum / numbers.size();
+//	std::cout << "The average is: " << average << std::endl;
+//	
+//	return 0;
+//}
